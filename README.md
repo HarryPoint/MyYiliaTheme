@@ -1,3 +1,5 @@
+> 此处为个人修改后的主题（仅为备份保存），如若喜欢，请移步 [hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia)
+
 hexo-theme-yilia
 ================
 

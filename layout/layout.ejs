@@ -1,5 +1,9 @@
 <%- partial('_partial/head') %>
 <body>
+<style>
+  body{cursor:url('assets/cursor/leaves.cur'), auto;} 
+  a {cursor: url('assets/cursor/leaves_1.cur'), auto;} 
+</style>
   <div id="container" q-class="show:isCtnShow">
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
@@ -23,5 +27,6 @@
     <%- partial('_partial/tools') %>
     <%- partial('_partial/viewer') %>
   </div>
+  <%- live2d() %>
 </body>
 </html>
